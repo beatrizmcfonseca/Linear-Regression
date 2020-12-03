@@ -1,5 +1,14 @@
-git add README.md
-git commit -m "tentativa 1 - slope"
+import numpy as np
+class Rlinear():
+    def __init__(self,n_iteracoes=1000,min_error=0.001,min_delta=0.001,learning_rate=0.1):
+        self.n_iteracoes=n_iteracoes
+        self.min_error=min_error
+        self.min_delta=min_delta
+        self.learning_rate=learning_rate
+        
+    def treino(self, X, Y):
+        n_individuos, n_variaveis=X.shape
+        self.pesos=np.random.rand()
 
 #desenhar variáveis
 var_x = []
@@ -47,8 +56,3 @@ def slope(multiplication):
     for x,y in multiplication:
         slope = multiplication / square_distance
 print ("The slope of the linear regression is {slope}")
-
-git branch -M main
-git remote add origin https://github.com/beatrizmcfonseca/datascience-programming-regression.git
-git push -u origin main
-
