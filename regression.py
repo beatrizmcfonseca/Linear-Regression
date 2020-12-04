@@ -1,4 +1,3 @@
-
 #desenhar variáveis
 var_x = []
 nr_var_x = len(var_x)
