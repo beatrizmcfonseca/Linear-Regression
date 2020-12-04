@@ -1,5 +1,5 @@
-# datascience-programming-regression
-Repository of Regression paper from data science and business analytics course 2020
+# Linear-Regression
+Repository of Linear Regression paper from programming class in data science and business analytics course 2020
 
 ## Breve resumo do código
 ==========================
