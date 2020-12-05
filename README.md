@@ -11,3 +11,7 @@ Por fim, é definido o modelo de previsão e é chamado o modelo criado para o u
 
 
 ###
+import numpy as np
+import panda as pd
+import matplolib.pyplot as plt
+from
