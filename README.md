@@ -9,9 +9,3 @@ Inicialmente, de modo a trabalhar mais facilmente com o modelo, foram definidos 
 De seguida, definimos a função de treino, tendo em conta a definição do output do modelo de previsao (Y_prev) e o erro. Depois, é definido o ponto em que a função termina de calcular e determina que o minimo erro foi encontrado.
 Por fim, é definido o modelo de previsão e é chamado o modelo criado para o utilizador ver o output.
 
-
-###
-import numpy as np
-import panda as pd
-import matplolib.pyplot as plt
-from
